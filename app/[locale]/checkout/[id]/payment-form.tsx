@@ -7,10 +7,10 @@ import {
 } from '@paypal/react-paypal-js'
 import { Card, CardContent } from '@/components/ui/card'
 import { useToast } from '@/hooks/use-toast'
-import {
-  approvePayPalOrder,
-  createPayPalOrder,
-} from '@/lib/actions/order.actions'
+// import {
+//   approvePayPalOrder,
+//   createPayPalOrder,
+// } from '@/lib/actions/order.actions'
 import { IOrder } from '@/lib/db/models/order.model'
 import { formatDateTime } from '@/lib/utils'
 
