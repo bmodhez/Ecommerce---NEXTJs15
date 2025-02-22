@@ -156,14 +156,14 @@ export default function OrderDetailsForm({
               </div>
             </div>
 
-            {/* {!isPaid && ['PayPal'].includes(paymentMethod) && (
+            {!isPaid && ['PayPal'].includes(paymentMethod) && (
               <Link
                 className={cn(buttonVariants(), 'w-full')}
                 href={`/checkout/${order._id}`}
               >
                 Pay Order
               </Link>
-            )} */}
+            )}
 
             {isAdmin && !isPaid && paymentMethod === 'Cash On Delivery' && (
               <ActionButton
