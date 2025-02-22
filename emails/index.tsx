@@ -1,5 +1,6 @@
 import { Resend } from 'resend'
 import PurchaseReceiptEmail from './purchase-receipt'
+
 import { IOrder } from '@/lib/db/models/order.model'
 import AskReviewOrderItemsEmail from './ask-review-order-items'
 import { SENDER_EMAIL, SENDER_NAME } from '@/lib/constants'
