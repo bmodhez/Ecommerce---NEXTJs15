@@ -9,7 +9,7 @@ export function GoogleSignInForm() {
     const { pending } = useFormStatus()
     return (
       <Button disabled={pending} className='w-full' variant='outline'>
-        {pending ? 'Redirecting to Google...' : 'Sign In with Google'}
+        {pending ? 'Google Is not available at this moment...' : 'Sign In with Google'}
       </Button>
     )
   }
