@@ -1,6 +1,5 @@
 import { Resend } from 'resend'
 import PurchaseReceiptEmail from './purchase-receipt'
-
 import { IOrder } from '@/lib/db/models/order.model'
 import AskReviewOrderItemsEmail from './ask-review-order-items'
 import { SENDER_EMAIL, SENDER_NAME } from '@/lib/constants'
@@ -14,7 +13,7 @@ export const sendPurchaseReceipt = async ({ order }: { order: IOrder }) => {
     subject: 'Order Confirmation',
     react: <PurchaseReceiptEmail order={order} />,
   })
-// }
+}
 
 export const sendAskReviewOrderItems = async ({ order }: { order: IOrder }) => {
   const oneDayFromNow = new Date(Date.now() + 1000 * 60 * 60 * 24).toISOString()
