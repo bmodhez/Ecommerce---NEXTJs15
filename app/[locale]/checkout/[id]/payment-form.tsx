@@ -1,16 +1,16 @@
 'use client'
 
-// import {
-//   PayPalButtons,
-//   PayPalScriptProvider,
-//   usePayPalScriptReducer,
-// } from '@paypal/react-paypal-js'
+import {
+  PayPalButtons,
+  PayPalScriptProvider,
+  usePayPalScriptReducer,
+} from '@paypal/react-paypal-js'
 import { Card, CardContent } from '@/components/ui/card'
 import { useToast } from '@/hooks/use-toast'
-// import {
-//   approvePayPalOrder,
-//   createPayPalOrder,
-// } from '@/lib/actions/order.actions'
+import {
+  approvePayPalOrder,
+  createPayPalOrder,
+} from '@/lib/actions/order.actions'
 import { IOrder } from '@/lib/db/models/order.model'
 import { formatDateTime } from '@/lib/utils'
 
@@ -18,20 +18,20 @@ import CheckoutFooter from '../checkout-footer'
 import { redirect, useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import ProductPrice from '@/components/shared/product/product-price'
-// import StripeForm from './stripe-form'
-// import { Elements } from '@stripe/react-stripe-js'
-// import { loadStripe } from '@stripe/stripe-js'
+import StripeForm from './stripe-form'
+import { Elements } from '@stripe/react-stripe-js'
+import { loadStripe } from '@stripe/stripe-js'
 
-// const stripePromise = loadStripe(
-//   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string
-// )
+const stripePromise = loadStripe(
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string
+)
 export default function OrderDetailsForm({
   order,
-  // paypalClientId,
-//   clientSecret,
+  paypalClientId,
+  clientSecret,
 }: {
   order: IOrder
-  // paypalClientId: string
+  paypalClientId: string
   isAdmin: boolean
   clientSecret: string | null
 }) {
@@ -49,35 +49,35 @@ export default function OrderDetailsForm({
   } = order
   const { toast } = useToast()
 
-  // if (isPaid) {
-  //   redirect(`/account/orders/${order._id}`)
-  // }
-  // function PrintLoadingState() {
-  //   const [{ isPending, isRejected }] = usePayPalScriptReducer()
-  //   let status = ''
-  //   if (isPending) {
-  //     status = 'Loading PayPal...'
-  //   } else if (isRejected) {
-  //     status = 'Error in loading PayPal.'
-  //   }
-  //   return status
-  // }
-  // const handleCreatePayPalOrder = async () => {
-  //   const res = await createPayPalOrder(order._id)
-  //   if (!res.success)
-  //     return toast({
-  //       description: res.message,
-  //       variant: 'destructive',
-  //     })
-  //   return res.data
-  // }
-  // const handleApprovePayPalOrder = async (data: { orderID: string }) => {
-  //   const res = await approvePayPalOrder(order._id, data)
-  //   toast({
-  //     description: res.message,
-  //     variant: res.success ? 'default' : 'destructive',
-  //   })
-  // }
+  if (isPaid) {
+    redirect(`/account/orders/${order._id}`)
+  }
+  function PrintLoadingState() {
+    const [{ isPending, isRejected }] = usePayPalScriptReducer()
+    let status = ''
+    if (isPending) {
+      status = 'Loading PayPal...'
+    } else if (isRejected) {
+      status = 'Error in loading PayPal.'
+    }
+    return status
+  }
+  const handleCreatePayPalOrder = async () => {
+    const res = await createPayPalOrder(order._id)
+    if (!res.success)
+      return toast({
+        description: res.message,
+        variant: 'destructive',
+      })
+    return res.data
+  }
+  const handleApprovePayPalOrder = async (data: { orderID: string }) => {
+    const res = await approvePayPalOrder(order._id, data)
+    toast({
+      description: res.message,
+      variant: res.success ? 'default' : 'destructive',
+    })
+  }
 
   const CheckoutSummary = () => (
     <Card>
@@ -122,7 +122,7 @@ export default function OrderDetailsForm({
               </span>
             </div>
 
-            {/* {!isPaid && paymentMethod === 'PayPal' && (
+            {!isPaid && paymentMethod === 'PayPal' && (
               <div>
                 <PayPalScriptProvider options={{ clientId: paypalClientId }}>
                   <PrintLoadingState />
@@ -132,8 +132,8 @@ export default function OrderDetailsForm({
                   />
                 </PayPalScriptProvider>
               </div>
-            )} */}
-            {/* {!isPaid && paymentMethod === 'Stripe' && clientSecret && (
+            )}
+            {!isPaid && paymentMethod === 'Stripe' && clientSecret && (
               <Elements
                 options={{
                   clientSecret,
@@ -145,7 +145,7 @@ export default function OrderDetailsForm({
                   orderId={order._id}
                 />
               </Elements>
-            )} */}
+            )}
 
             {!isPaid && paymentMethod === 'Cash On Delivery' && (
               <Button
