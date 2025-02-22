@@ -18,7 +18,7 @@ const users: IUserInput[] = [
       country: 'India',
       phone: '9322667822',
     },
-    paymentMethod: 'Stripe',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -52,7 +52,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -86,7 +86,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -103,7 +103,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -137,7 +137,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -154,7 +154,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -171,7 +171,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -205,7 +205,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -222,7 +222,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'Stripe',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
   {
@@ -256,7 +256,7 @@ const users: IUserInput[] = [
       country: 'USA',
       phone: '123-456-7890',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Cash On Delivery',
     emailVerified: false,
   },
 ]

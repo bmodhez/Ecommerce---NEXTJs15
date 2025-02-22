@@ -27,11 +27,11 @@ import ProductPrice from '@/components/shared/product/product-price'
 // )
 export default function OrderDetailsForm({
   order,
-  paypalClientId,
+  // paypalClientId,
 //   clientSecret,
 }: {
   order: IOrder
-  paypalClientId: string
+  // paypalClientId: string
   isAdmin: boolean
   clientSecret: string | null
 }) {
