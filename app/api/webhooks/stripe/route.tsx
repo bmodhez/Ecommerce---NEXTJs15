@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Razorpay from 'razorpay';
+import crypto from 'crypto';
+import Order from '@/lib/db/models/order.model';
 
 // Ensure environment variables are set
-const RAZORPAY_KEY_ID = process.env.rzp_test_sDxRJZYUxz2MLY!;
-const RAZORPAY_SECRET = process.env.WJ3oqiNOl2K0wKJGhWhNSm0O!;
+const RAZORPAY_KEY_ID = process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID!;
+const RAZORPAY_SECRET = process.env.RAZORPAY_SECRET!;
 const RAZORPAY_WEBHOOK_SECRET = process.env.RAZORPAY_WEBHOOK_SECRET!;
 
 // Initialize Razorpay instance
@@ -27,7 +29,6 @@ export async function POST(req: NextRequest) {
     }
 
     // Verify webhook signature
-    const crypto = require('crypto');
     const expectedSignature = crypto
       .createHmac('sha256', RAZORPAY_WEBHOOK_SECRET)
       .update(rawBody)
@@ -43,7 +44,32 @@ export async function POST(req: NextRequest) {
       const payment = event.payload.payment.entity;
       console.log('Payment Captured:', payment);
 
-      // Process the payment (e.g., update order in DB)
+      // Extract orderId from payment metadata
+      const orderId = payment.notes?.orderId; // Assuming orderId is stored in notes
+
+      if (!orderId) {
+        return new NextResponse('Order ID not found in payment', { status: 400 });
+      }
+
+      // Find the order in DB
+      const order = await Order.findById(orderId);
+      if (!order) {
+        return new NextResponse('Order not found', { status: 400 });
+      }
+
+      // Update order status in the database
+      order.isPaid = true;
+      order.paidAt = new Date();
+      order.paymentResult = {
+        id: payment.id,
+        status: 'COMPLETED',
+        email_address: payment.email,
+        pricePaid: (payment.amount / 100).toFixed(2),
+      };
+
+      await order.save();
+
+      return NextResponse.json({ message: 'Order payment updated successfully' });
     }
 
     return new NextResponse('Webhook received', { status: 200 });
