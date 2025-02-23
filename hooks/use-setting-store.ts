@@ -28,7 +28,7 @@ const useSettingStore = create<SettingState>((set, get) => ({
     return (
       get().setting.availableCurrencies.find(
         (c) => c.code === get().setting.currency
-      ) || data.settings[0].availableCurrencies[0]
+      ) || data.settings[0].availableCurrencies[3]
     )
   },
   setCurrency: async (currency: string) => {
