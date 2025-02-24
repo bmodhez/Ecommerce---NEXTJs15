@@ -294,7 +294,7 @@ const products: IProductInput[] = [
     name: 'Random1',
     slug: toSlug('Nike Mens Slim-fit Long-Sleeve T-Shirt'),
     category: 'T-Shirts',
-    images: ['/images/p6-1.jpg', '/images/p6-2.jpg'],
+    images: ['/images/p5-1'],
     tags: ['new-arrival'],
     isPublished: true,
     price: 21.8,
@@ -1046,7 +1046,7 @@ const products: IProductInput[] = [
     reviews: [],
   },
   {
-    name: 'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes',
+    name: 'Jhatu Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes',
     slug: toSlug(
       'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes'
     ),
@@ -1071,7 +1071,7 @@ const products: IProductInput[] = [
     description:
       'Design: Mesh vamp, ventilation. Sole anti-slip groove design, shock absorption and anti-slip. The inside of the shoe is wide and soft, bringing you a good comfortable experience',
     sizes: ['8', '9', '10', '11', '12'],
-    colors: ['Brown', 'Black', 'Grey'],
+    colors: ['Brown', 'Blue', 'Grey'],
 
     reviews: [],
   },
@@ -1391,14 +1391,14 @@ We also provide helpful resources such as order tracking, product guides, and FA
       title: 'Most Popular Shoes For Sale',
       buttonCaption: 'Shop Now',
       image: '/images/banner3.jpg',
-      url: '/search?category=Shoes',
+      url: '/search?category=Mens Shoes',
       isPublished: true,
     },
     {
       title: 'Best Sellers in T-Shirts',
       buttonCaption: 'Shop Now',
       image: '/images/banner1.jpg',
-      url: '/search?category=T-Shirts',
+      url: '/search?category=Mens Fashion',
       isPublished: true,
     },
     {
@@ -1437,13 +1437,13 @@ We also provide helpful resources such as order tracking, product guides, and FA
           title: 'Most Popular Shoes For Sale',
           buttonCaption: 'Shop Now',
           image: '/images/banner3.jpg',
-          url: '/search?category=Shoes',
+          url: '/search?category=Mens Shoes',
         },
         {
           title: 'Best Sellers in T-Shirts',
           buttonCaption: 'Shop Now',
           image: '/images/banner1.jpg',
-          url: '/search?category=T-Shirts',
+          url: '/search?category=Mens Fashion',
         },
         {
           title: 'Best Deals on Wrist Watches',
