@@ -1046,7 +1046,7 @@ const products: IProductInput[] = [
     reviews: [],
   },
   {
-    name: 'Jhatu Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes',
+    name: "Layasa New Women's Stylish Casual Sports Sneakers",
     slug: toSlug(
       'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes'
     ),
@@ -1069,8 +1069,8 @@ const products: IProductInput[] = [
     countInStock: 44,
     numSales: 72,
     description:
-      'Design: Mesh vamp, ventilation. Sole anti-slip groove design, shock absorption and anti-slip. The inside of the shoe is wide and soft, bringing you a good comfortable experience',
-    sizes: ['8', '9', '10', '11', '12'],
+      'Catalog Name:Classy Women Sneakers Material: Synthetic Sole Material: PVC Fastening & Back Detail: Lace-Up Pattern: Colorblocked Net Quantity (N): 1 Sizes: IND-7, IND-6, IND-8, IND-3, IND-5, IND-4 Dispatch: 2-2 Days',
+    sizes: ['14', '9', '10', '11', '12'],
     colors: ['Brown', 'Blue', 'Grey'],
 
     reviews: [],
