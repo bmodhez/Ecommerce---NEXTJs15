@@ -3,9 +3,7 @@ export const i18n = {
     { code: 'en-US', name: 'English', icon: '🇺🇸' },
     { code: 'fr', name: 'Français', icon: '🇫🇷' },
     { code: 'ar', name: 'العربية', icon: '🇸🇦' },
-    { code: 'hi', name: 'हिन्दी', icon: '🇮🇳' },
-    { code: 'ta', name: 'தமிழ்', icon: '🇮🇳' },  
-    { code: 'gu', name: 'ગુજરાતી', icon: '🇮🇳' }
+    { code: 'Hindi', name: 'हिन्दी', icon: '🇮🇳' }, 
 
   ],
   defaultLocale: 'en-US',

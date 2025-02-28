@@ -20,7 +20,7 @@ const users: IUserInput[] = [
     },
     paymentMethod: 'Cash On Delivery',
     emailVerified: false,
-  },
+  }
 
 ]
 
@@ -1000,7 +1000,7 @@ const data: Data = {
       slug: 'about-us',
       content: `Welcome to Trendora, your trusted destination for quality products and exceptional service. Our journey began with a mission to bring you the best shopping experience by offering a wide range of products at competitive prices, all in one convenient platform.
 
-At [Your Store Name], we prioritize customer satisfaction and innovation. Our team works tirelessly to curate a diverse selection of items, from everyday essentials to exclusive deals, ensuring there's something for everyone. We also strive to make your shopping experience seamless with fast shipping, secure payments, and excellent customer support.
+At Trendora, we prioritize customer satisfaction and innovation. Our team works tirelessly to curate a diverse selection of items, from everyday essentials to exclusive deals, ensuring there's something for everyone. We also strive to make your shopping experience seamless with fast shipping, secure payments, and excellent customer support.
 
 As we continue to grow, our commitment to quality and service remains unwavering. Thank you for choosing Trendora — we look forward to being a part of your journey and delivering value every step of the way.`,
       isPublished: true,
@@ -1232,25 +1232,26 @@ We also provide helpful resources such as order tracking, product guides, and FA
       defaultPaymentMethod: 'Cash On Delivery',
       availableDeliveryDates: [
         {
-          name: 'Tomorrow',
-          daysToDeliver: 1,
-          shippingPrice: 20,
-          freeShippingMinPrice: 250,
-        },
-        {
-          name: 'Next 3 Days',
-          daysToDeliver: 3,
-          shippingPrice: 10,
-          freeShippingMinPrice: 100,
-        },
-        {
-          name: 'Next 5 Days',
+          name: 'Standard Delivery',
           daysToDeliver: 5,
           shippingPrice: 0,
           freeShippingMinPrice: 0,
         },
+        {
+          name: 'Priority Processing',
+          daysToDeliver: 5,
+          shippingPrice: 30,
+          freeShippingMinPrice: 500,
+        },
+        {
+          name: 'Super Saver (Bulk Orders)',
+          daysToDeliver: 7,
+          shippingPrice: -10, // Discounted shipping
+          freeShippingMinPrice: 700,
+        },
       ],
-      defaultDeliveryDate: 'Next 5 Days',
+      defaultDeliveryDate: 'Standard Delivery',
+      
     },
   ],
 }
