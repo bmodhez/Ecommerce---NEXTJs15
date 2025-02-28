@@ -998,11 +998,11 @@ const data: Data = {
     {
       title: 'About Us',
       slug: 'about-us',
-      content: `Welcome to [Your Store Name], your trusted destination for quality products and exceptional service. Our journey began with a mission to bring you the best shopping experience by offering a wide range of products at competitive prices, all in one convenient platform.
+      content: `Welcome to Trendora, your trusted destination for quality products and exceptional service. Our journey began with a mission to bring you the best shopping experience by offering a wide range of products at competitive prices, all in one convenient platform.
 
 At [Your Store Name], we prioritize customer satisfaction and innovation. Our team works tirelessly to curate a diverse selection of items, from everyday essentials to exclusive deals, ensuring there's something for everyone. We also strive to make your shopping experience seamless with fast shipping, secure payments, and excellent customer support.
 
-As we continue to grow, our commitment to quality and service remains unwavering. Thank you for choosing [Your Store Name]—we look forward to being a part of your journey and delivering value every step of the way.`,
+As we continue to grow, our commitment to quality and service remains unwavering. Thank you for choosing Trendora — we look forward to being a part of your journey and delivering value every step of the way.`,
       isPublished: true,
     },
     {
@@ -1184,16 +1184,16 @@ We also provide helpful resources such as order tracking, product guides, and FA
       site: {
         name: 'Trendora',
         description:
-          'Trendora is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
-        keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',
-        url: 'https://next-mongo-ecommerce-final.vercel.app',
-        logo: '/icons/logo.svg',
-        slogan: 'Spend less, enjoy more.',
-        author: 'Next Ecommerce',
-        copyright: '2000-2024, Next-Ecommerce.com, Inc. or its affiliates',
-        email: 'admin@example.com',
-        address: '123, Main Street, Anytown, CA, Zip 12345',
-        phone: '+1 (123) 456-7890',
+          'Trendora is a Ecommerce website',
+        keywords: 'Trendora, Clothing, Fashion, Trendy Wear, Online Shopping',
+        url: 'https://trendora.vercel.app',
+        logo: '/icons/logo.png',
+        slogan: 'Style for less, confidence for more.',
+        author: 'Bhavin Modh',
+        copyright: '2025, trendora.com, Inc. or its affiliates',
+        email: 'modhbhavin05@gmail.com',
+        address: 'Anand Vallabh Vidyanagar',
+        phone: '+91 9322667822',
       },
       carousels: [
         {

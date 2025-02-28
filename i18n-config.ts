@@ -7,7 +7,6 @@ export const i18n = {
     { code: 'ta', name: 'தமிழ்', icon: '🇮🇳' },  
     { code: 'gu', name: 'ગુજરાતી', icon: '🇮🇳' }
 
-
   ],
   defaultLocale: 'en-US',
 }
