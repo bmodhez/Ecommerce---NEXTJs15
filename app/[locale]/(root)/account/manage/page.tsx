@@ -42,7 +42,7 @@ export default async function ProfilePage() {
             <div>
               <h3 className='font-bold'>Email</h3>
               <p>{session?.user.email}</p>
-              <p>will be implemented in the next version</p>
+              <p></p>
             </div>
             <div>
               <Link href='#'>
@@ -61,7 +61,7 @@ export default async function ProfilePage() {
             <div>
               <h3 className='font-bold'>Password</h3>
               <p>************</p>
-              <p>will be implemented in the next version</p>
+              <p></p>
             </div>
             <div>
               <Link href='#'>

@@ -4,23 +4,7 @@ import bcrypt from 'bcryptjs'
 import { i18n } from '@/i18n-config'
 
 const users: IUserInput[] = [
-  {
-    name: 'Bhavin M',
-    email: 'modhbhavin05@gmail.com',
-    password: bcrypt.hashSync('Bhavin@123', 5),
-    role: 'Admin',
-    address: {
-      fullName: 'Bhavin Modh',
-      street: 'APC Chhatralay',
-      city: 'Anand',
-      province: 'Gujarat',
-      postalCode: '388120',
-      country: 'India',
-      phone: '9322667822',
-    },
-    paymentMethod: 'Cash On Delivery',
-    emailVerified: false,
-  }
+  
 
 ]
 
@@ -1175,7 +1159,7 @@ We also provide helpful resources such as order tracking, product guides, and FA
   settings: [
     {
       common: {
-        freeShippingMinPrice: 35,
+        freeShippingMinPrice: 500,
         isMaintenanceMode: false,
         defaultTheme: 'Light',
         defaultColor: 'Gold',
@@ -1243,14 +1227,9 @@ We also provide helpful resources such as order tracking, product guides, and FA
           shippingPrice: 30,
           freeShippingMinPrice: 500,
         },
-        {
-          name: 'Super Saver (Bulk Orders)',
-          daysToDeliver: 7,
-          shippingPrice: -10, // Discounted shipping
-          freeShippingMinPrice: 700,
-        },
       ],
       defaultDeliveryDate: 'Standard Delivery',
+      
       
     },
   ],

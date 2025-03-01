@@ -43,13 +43,13 @@ import ProductPrice from '@/components/shared/product/product-price'
 const shippingAddressDefaultValues =
   process.env.NODE_ENV === 'development'
     ? {
-        fullName: 'Bhavin M',
-        street: '1911, 65 Sherbrooke Est',
-        city: 'Montreal',
-        province: 'Quebec',
-        phone: '4181234567',
-        postalCode: 'H2X 1C4',
-        country: 'Canada',
+        fullName: '',
+        street: '',
+        city: '',
+        province: '',
+        phone: '',
+        postalCode: '',
+        country: '',
       }
     : {
         fullName: '',
