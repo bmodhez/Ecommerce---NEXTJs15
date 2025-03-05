@@ -138,7 +138,7 @@ export default function ReviewList({
 
   const handleOpenForm = async () => {
     form.setValue('product', product._id)
-    form.setValue('user', userId!)
+    // form.setValue('user', userId!)
     form.setValue('isVerifiedPurchase', true)
     const review = await getReviewByProductId({ productId: product._id })
     if (review) {
