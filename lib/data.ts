@@ -57,7 +57,7 @@ const products: IProductInput[] = [
     name: 'STI Mens Tshirts (Pack of 2)',
     slug: toSlug('STI Mens Tshirts'),
     category: 'Mens Fashion',
-    images: ['/images/p51-1','/images/p51-2', '/images/p51-3', '/images/p51-4', '/images/p51-5'],
+    images: ['/images/p51-1.jpg','/images/p51-2.jpg', '/images/p51-3.jpg', '/images/p51-4.jpg', '/images/p51-5.jpg'],
     tags: ['new-arrival'],
     isPublished: true,
     price: 399,
