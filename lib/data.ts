@@ -44,7 +44,7 @@ const products: IProductInput[] = [
       { rating: 2, count: 4 },
       { rating: 1, count: 7 },
     ],
-    numSales: 46,
+    numSales: 0,
     countInStock: 52,
     description:
       'Catalog Name: Abhisarika Sensational Kurtis Fabric: Crepe Sleeve Length: Three-Quarter Sleeves Pattern: Embroidered Combo of: Single Size : S (Bust Size: 36 in, Size Length: 45 in)  M (Bust Size: 38 in, Size Length: 45 in) L (Bust Size: 40 in, Size Length: 45 in)  XL (Bust Size: 42 in, Size Length: 45 in)  XXL (Bust Size: 44 in, Size Length: 45 in) Easy Returns Available In Case Of Any Issue',
@@ -216,7 +216,7 @@ const products: IProductInput[] = [
       { rating: 4, count: 265 },
       { rating: 5, count: 467 },
     ],
-    numSales: 29,
+    numSales: 0,
     countInStock: 12,
     description:
       'Catalog Name: Aagyeyi Ensemble Kurtis Fabric: Crepe Pattern: Printed Combo of: Single Sizes: S (Bust Size: 36 in, Size Length: 44 in)  M (Bust Size: 38 in, Size Length: 44 in)  L (Bust Size: 40 in, Size Length: 44 in)  XL (Bust Size: 42 in, Size Length: 44 in)  XXL (Bust Size: 44 in, Size Length: 44 in)  Easy Returns Available In Case Of Any Issue ',
@@ -244,7 +244,7 @@ const products: IProductInput[] = [
       { rating: 2, count: 8 },
       { rating: 1, count: 22 },
     ],
-    numSales: 55,
+    numSales: 0,
     countInStock: 63,
     description:
       'The Jerzees long sleeve t-shirt is made with dri-power technology that wicks away moisture to keep you cool and dry throughout your day. We also included a rib collar and cuffs for added durability, and a lay-flat collar for comfort. If you are looking for a versatile shirt that you can wear throughout the transitioning seasons, then look no further.',
@@ -274,7 +274,7 @@ const products: IProductInput[] = [
       { rating: 2, count: 368 },
       { rating: 1, count: 734 },
     ],
-    numSales: 74,
+    numSales: 0,
     countInStock: 64,
     description:
       'Product Name: LEOTUDE Mens Tshirts Fabric: Cotton Blend Sleeve Length: Long Sleeves Pattern: Printed Net Quantity (N): 1 Sizes: S(Chest Size: 38 in, Length Size: 27 in)  M (Chest Size: 40 in, Length Size: 28 in)  L (Chest Size: 42 in, Length Size: 29 in)  XL (Chest Size: 44 in, Length Size: 30 in)  XXL (Chest Size: 46 in, Length Size: 30.5 in)  XXXL',
@@ -304,7 +304,7 @@ const products: IProductInput[] = [
       { rating: 2, count: 122 },
       { rating: 1, count: 312 },
     ],
-    numSales: 125,
+    numSales: 0,
     countInStock: 67,
     description:
       "Checkout this latest Dupatta Sets Product Name: Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set Fabric: Rayon Sleeve Length: Sleeveless Pattern: Printed Set Type: Kurta with Dupatta and Bottomwear Stitch Type: Stitched Sizes:  S, M, L, XL, XXL Country of Origin: India Easy Returns Available In Case Of Any Issue",
@@ -333,7 +333,7 @@ const products: IProductInput[] = [
       { rating: 1, count: 8563 },
     ],
     countInStock: 76,
-    numSales: 466,
+    numSales: 0,
     description:
       'Product Name: Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women Fabric: Cotton Blend Sleeve Length: Short Sleeves Pattern: Printed Combo of: Single Sizes: XS (Bust Size: 19 in, Size Length: 44 in)  S (Bust Size: 36 in, Size Length: 44 in)  M (Bust Size: 38 in, Size Length: 44 in)  L (Bust Size: 40 in, Size Length: 44 in)  XL (Bust Size: 42 in, Size Length: 44 in)  XXL (Bust Size: 44 in, Size Length: 44 in)  XXXL (Bust Size: 25 in, Size Length: 44 in)  4XL (Bust Size: 26 in, Size Length: 44 in) SIZE CHART- Bust Size- S-36, M-38, L-40,XL-42, XXL-44,3XL-46, 4XL-48, West Size-S-32, M-34, L-36, XL-38, XXL-40, 3XL-42, 4XL-4 ',
     sizes: ['XS','S','M','L','XL', 'XXL','XXXL','4XL'],
@@ -362,7 +362,7 @@ const products: IProductInput[] = [
       { rating: 1, count: 514 },
     ],
     countInStock: 64,
-    numSales: 72,
+    numSales: 0,
     description:
       'Catalog Name:Men Skinny Jeans Fabric: Denim Pattern: Dyed/Washed Net Quantity (N): 1 Sizes:  28 (Waist Size: 29 in, Length Size: 41 in, Hip Size: 34 in)  30 (Waist Size: 31 in, Length Size: 41 in, Hip Size: 36 in)  32 (Waist Size: 33 in, Length Size: 41 in, Hip Size: 38 in) Dispatch: 1 Day',
     sizes: ['28', '30', '32'],
@@ -392,7 +392,7 @@ const products: IProductInput[] = [
       { rating: 5, count: 5 },
     ],
     countInStock: 22,
-    numSales: 54,
+    numSales: 0,
     description:
       'A veritable classic, this 505 is made to have a comfortable look and style.',
     sizes: ['30Wx30L', '34Wx30L', '36Wx30L'],
@@ -420,7 +420,7 @@ const products: IProductInput[] = [
       { rating: 1, count: 287 },
     ],
     countInStock: 64,
-    numSales: 84,
+    numSales: 0,
     description:
       'Catalog Name: Classy Elegant Women Jeans Fabric: Denim Net Quantity (N): 1 Sizes: 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, XS Dispatch: 1 Day',
     sizes: ['24', '26', '28','30','32','XS','34','36','38','40','42'],
@@ -450,7 +450,7 @@ const products: IProductInput[] = [
       { rating: 1, count: 612 },
     ],
     countInStock: 48,
-    numSales: 169,
+    numSales: 0,
     description:
       'Product Name: Trandy Women Fancy Cargo Pant Fabric: Cotton Blend Surface Styling: Tie-Ups Net Quantity (N): 1 Sizes: 26 (Waist Size: 26 in, Length Size: 32 in)  28 (Waist Size: 28 in, Length Size: 32 in)  30 (Waist Size: 30 in, Length Size: 32 in)  32 (Waist Size: 32 in, Length Size: 32 in)  34 (Waist Size: 34 in, Length Size: 32 in) ',
     sizes: ['26', '28', '30', '32', '34'],
@@ -478,7 +478,7 @@ const products: IProductInput[] = [
       { rating: 1, count: 2563 },
     ],
     countInStock: 65,
-    numSales: 87,
+    numSales: 0,
     description:
       'Product Name: Men Cotton Blend Jeans Fabric: Cotton Blend Pattern: Dyed/Washed Net Quantity (N): 1 Sizes:  28 (Waist Size: 29 in, Length Size: 42 in, Hip Size: 35 in)  30 (Waist Size: 31 in, Length Size: 42 in, Hip Size: 37 in)  32 (Waist Size: 33 in, Length Size: 42 in, Hip Size: 39 in)  34 (Waist Size: 35 in, Length Size: 42 in, Hip Size: 40 in)  Country of Origin: India',
     sizes: ['28', '30', '32','34'],
@@ -506,7 +506,7 @@ const products: IProductInput[] = [
       { rating: 1, count: 471 },
     ],
     countInStock: 76,
-    numSales: 64,
+    numSales: 0,
     description:
       'Product Name: Men Denim Jeans Fabric: Denim Pattern: Dyed/WashedNet Quantity (N): 1RASSO Regular Fit Mens Jeans - Crafted from cotton to cater to your comfort demands, this pair of Mid rise jeans from RASSO offers you a fashionable look effortlessly. Sizes: 28(Waist Size: 28 in, Length Size: 42 in, Hip Size: 28 in) 30(Waist Size: 30 in, Length Size: 42 in, Hip Size: 30 32(Waist Size: 32 in), Length Size: 42 in, Hip Size: 32 in) 34(Waist Size: 34 in, Length Size: 42 in, Hip Size: 34 in) 36(Waist Size: 36 in, Length Size: 42 in, Hip Size: 36 in) 38(Waist Size: 38 in, Length Size: 42 in, Hip Size: 38 in) 40(Waist Size: 40 in, Length Size: 42 in, Hip Size: 40 in) 42(Waist Size: 42 in, Length Size: 42 in, Hip Size: 42 in) Country of Origin: India',
   sizes: ['28', '30', '32', '34', '36','38','40','42'],
@@ -538,7 +538,7 @@ const products: IProductInput[] = [
                           { rating: 1, count: 590 },
                         ],
                           countInStock: 46,
-                            numSales: 106,
+                            numSales: 0,
                               description:
   'Catalog Name:Classy Men Analog Watches Strap Material: Stainless Steel Case: The Goal Case/Bezel Material: Stainless Steel Clasp Type: Stainless Steel Buckle Date Display: Product Dependent Dial Design: Solid Dial Shape: Round Display Type: Analog Dual Time: No Gps: No Light: No Mechanism: Quartz Power Source: Battery Powered Scratch Resistant: No Shock Resistance: No Water Resistance: No Net Quantity (N): 1 Sizes:  Free Size Dispatch: 1 Day',
     sizes: ['Free Size'],
@@ -567,7 +567,7 @@ const products: IProductInput[] = [
                           { rating: 5, count: 720 },
                         ],
                           countInStock: 71,
-                            numSales: 48,
+                            numSales: 0,
                               description:
   'Material: Mesh Sole Material: Pvc Fastening & Back Detail: Lace-Up Sizes: IND-6, IND-7, IND-8, IND-9, IND-10 Easy Returns Available In Case Of Any Issue ',
     sizes: ['IND-6', 'IND-7', 'IND-8' ,'IND-9', 'IND-10'],
@@ -597,7 +597,7 @@ const products: IProductInput[] = [
                           { rating: 5, count: 214 },
                         ],
                           countInStock: 62,
-                            numSales: 70,
+                            numSales: 0,
                               description:
   'Product Name: Mens Mid top Ankle Sneakers White Colour (Pack Of 1) Material: Syntethic Leather Sole Material: PVC Pattern: Striped Fastening & Back Detail: Lace-Up Net Quantity (N): 1 Sole: AIRMIX Closure: Lace-Up Heel Height: 1 inches Shoe Width: Medium Material: Premium Synthetic Upper Mid Top Ankle Sneakers For Men Lifestyle : Perfect For Casual , Outdoor & Every Day Purpose Highly Cushioned footed which you can wear them all day long without any kind of discomfort or uneasiness Disclaimer: Color may slightly vary due to different screen resolutions Care Instructions: Clean your Shoe using a brush to remove loose surface dirt Sizes: IND-6, IND-8, IND-9, IND-10 Country of Origin: India Easy Returns Available In Case Of Any Issue ',
     sizes: ['IND-6', 'IND-8', 'IND-9','IND-10'],
@@ -627,7 +627,7 @@ const products: IProductInput[] = [
                           { rating: 5, count: 257 },
                         ],
                           countInStock: 43,
-                            numSales: 72,
+                            numSales: 0,
                               description:
   'Catalog Name:Relaxed Trendy Men Casual Shoes Material: Denim Sole Material: Rubber Fastening & Back Detail: Lace-Up Sizes: IND-6, IND-7, IND-8, IND-9, IND-10 Easy Returns Available In Case Of Any Issue',
     sizes: ['24.5', '25', '25.5','26','27'],
@@ -657,7 +657,7 @@ const products: IProductInput[] = [
                           { rating: 5, count: 1840 },
                         ],
                           countInStock: 89,
-                            numSales: 72,
+                            numSales: 0,
                               description:
   'Catalog Name:Classy Women Sneakers Material: Synthetic Sole Material: PVC Fastening & Back Detail: Lace-Up Pattern: Colorblocked Net Quantity (N): 1 Sizes: IND-7, IND-6, IND-8, IND-3, IND-5, IND-4 Dispatch: 2-2 Days',
     sizes: ['IND-8', 'IND-3', 'IND-4', 'IND-5', 'IND-6', 'IND-7'],
@@ -685,7 +685,7 @@ const products: IProductInput[] = [
                           { rating: 5, count: 43 },
                         ],
                           countInStock: 45,
-                            numSales: 64,
+                            numSales: 0,
                               description:
   "Catalog Name: Trendy Sports Shoes Material: Mesh | Sole Material: EVA | Fastening & Back Detail: Lace-Up | Pattern: Colorblocked | Net Quantity (N): 1 Sizes:  IND-6 (Foot Length Size: 25 cm)  IND-7 (Foot Length Size: 26 cm)  IND-8 (Foot Length Size: 27 cm)  IND-9 (Foot Length Size: 28 cm)  IND-10 (Foot Length Size: 29 cm)  Dispatch: 2 Days",
     sizes: ['25', '26', '27', '28','29'],
@@ -717,7 +717,7 @@ const products: IProductInput[] = [
                           { rating: 5, count: 9 },
                         ],
                           countInStock: 46,
-                            numSales: 48,
+                            numSales: 0,
                               description:
   'Catalog Name: Aadab Graceful Men Casual Shoes Material: Mesh Sole Material: Pvc Fastening & Back Detail: Lace-Up Sizes: IND-6, IND-7, IND-8, IND-9, IND-10 Easy Returns Available In Case Of Any Issue',
     sizes: ['25', '26', '27', '28'],
@@ -728,94 +728,94 @@ const products: IProductInput[] = [
 ]
 const reviews = [
   {
+    rating: 5,
+    title: 'Highly recommend!', // Good
+    comment:
+      'This is exactly what I was looking for. Great quality, perfect fit, and it looks fantastic. A must-have!',
+  },
+  {
+    rating: 2,
+    title: 'Not worth the price', // Bad
+    comment:
+      "Disappointed with the quality. It looks decent in pictures, but in reality, it's flimsy and poorly made. Definitely wouldn't recommend.",
+  },
+  {
+    rating: 4,
+    title: 'Happy with my purchase', // Good
+    comment:
+      'Good quality and fair price. It met my expectations, and I might buy another one in the future.',
+  },
+  {
     rating: 1,
-    title: 'Poor quality',
+    title: 'Terrible quality, waste of money', // Bad
     comment:
-      'Very disappointed. The item broke after just a few uses. Not worth the money.',
+      'Absolutely horrible. The product fell apart within days. The material is cheap, and the stitching is poor. Avoid at all costs.',
+  },
+  {
+    rating: 3,
+    title: 'Decent but not great', // Neutral
+    comment:
+      "It's an okay product. The design is nice, but the build quality isn't the best. Not terrible, but also not something I'd repurchase.",
+  },
+  {
+    rating: 5,
+    title: 'Best purchase ever!', // Good
+    comment:
+      "I’m so impressed with this product! It's everything I hoped for and more. Definitely worth every penny.",
   },
   {
     rating: 2,
-    title: 'Disappointed',
+    title: 'Could be better', // Bad
     comment:
-      "Not as expected. The material feels cheap, and it didn't fit well. Wouldn't buy again.",
+      "It's not completely useless, but it has too many flaws. The size runs small, and the material feels uncomfortable.",
+  },
+  {
+    rating: 4,
+    title: 'Great buy!', // Good
+    comment:
+      'Very satisfied with the quality. The product is well-made and does exactly what I needed it to do.',
+  },
+  {
+    rating: 3,
+    title: 'Not bad for the price', // Neutral
+    comment:
+      'This product is fine if you’re looking for something affordable. Just don’t expect premium quality.',
+  },
+  {
+    rating: 5,
+    title: 'Fantastic product!', // Good
+    comment:
+      "Can't find a single flaw. The quality, design, and functionality are all top-notch. Absolutely love it!",
+  },
+  {
+    rating: 1,
+    title: 'Worst product ever!', // Bad
+    comment:
+      'Do not buy this. The stitching is weak, and it broke after two washes. A total waste of money.',
+  },
+  {
+    rating: 3,
+    title: 'Average experience', // Neutral
+    comment:
+      'Does the job, but I expected more. It’s neither great nor terrible, but for the price, I expected higher quality.',
+  },
+  {
+    rating: 4,
+    title: 'Met expectations', // Good
+    comment:
+      'Solid purchase! Feels durable, and the design is nice. A few minor improvements could make it perfect.',
+  },
+  {
+    rating: 5,
+    title: 'Absolutely love it!', // Good
+    comment:
+      "This product exceeded my expectations! It's high-quality, stylish, and super comfortable. Would definitely buy again.",
   },
   {
     rating: 2,
-    title: 'Needs improvement',
+    title: 'Not as expected', // Bad
     comment:
-      "It looks nice but doesn't perform as expected. Wouldn't recommend without upgrades.",
-  },
-  {
-    rating: 3,
-    title: 'not bad',
-    comment:
-      'This product is decent, the quality is good but it could use some improvements in the details.',
-  },
-  {
-    rating: 3,
-    title: 'Okay, not great',
-    comment:
-      'It works, but not as well as I hoped. Quality is average and lacks some finishing.',
-  },
-  {
-    rating: 3,
-    title: 'Good product',
-    comment:
-      'This product is amazing, I love it! The quality is top notch, the material is comfortable and breathable.',
-  },
-  {
-    rating: 4,
-    title: 'Pretty good',
-    comment:
-      "Solid product! Great value for the price, but there's room for minor improvements.",
-  },
-  {
-    rating: 4,
-    title: 'Very satisfied',
-    comment:
-      'Good product! High quality and worth the price. Would consider buying again.',
-  },
-  {
-    rating: 4,
-    title: 'Absolutely love it!',
-    comment:
-      'Perfect in every way! The quality, design, and comfort exceeded all my expectations.',
-  },
-  {
-    rating: 4,
-    title: 'Exceeded expectations!',
-    comment:
-      'Fantastic product! High quality, feels durable, and performs well. Highly recommend!',
-  },
-  {
-    rating: 5,
-    title: 'Perfect purchase!',
-    comment:
-      "Couldn't be happier with this product. The quality is excellent, and it works flawlessly!",
-  },
-  {
-    rating: 5,
-    title: 'Highly recommend',
-    comment:
-      "Amazing product! Worth every penny, great design, and feels premium. I'm very satisfied.",
-  },
-  {
-    rating: 5,
-    title: 'Just what I needed',
-    comment:
-      'Exactly as described! Quality exceeded my expectations, and it arrived quickly.',
-  },
-  {
-    rating: 5,
-    title: 'Excellent choice!',
-    comment:
-      'This product is outstanding! Everything about it feels top-notch, from material to functionality.',
-  },
-  {
-    rating: 5,
-    title: "Couldn't ask for more!",
-    comment:
-      "Love this product! It's durable, stylish, and works great. Would buy again without hesitation.",
+      "The material is too thin, and it doesn't feel durable. I regret buying this, not what I hoped for.",
   },
 ]
 
