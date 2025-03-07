@@ -371,36 +371,6 @@ const products: IProductInput[] = [
     reviews: [],
   },
   {
-    name: "Levi's mens 505 Regular Fit Jeans (Also Available in Big & Tall)",
-    slug: toSlug(
-      "Levi's mens 505 Regular Fit Jeans (Also Available in Big & Tall)"
-    ),
-    category: 'Jeans',
-    brand: "Levi's",
-    images: ['/images/p22-1.jpg', '/images/p22-2.jpg'],
-    tags: ['featured'],
-    isPublished: true,
-    price: 59.99,
-    listPrice: 69.99,
-    avgRating: 4.2,
-    numReviews: 10,
-    ratingDistribution: [
-      { rating: 1, count: 1 },
-      { rating: 2, count: 0 },
-      { rating: 3, count: 0 },
-      { rating: 4, count: 4 },
-      { rating: 5, count: 5 },
-    ],
-    countInStock: 22,
-    numSales: 0,
-    description:
-      'A veritable classic, this 505 is made to have a comfortable look and style.',
-    sizes: ['30Wx30L', '34Wx30L', '36Wx30L'],
-    colors: ['Blue', 'Grey'],
-
-    reviews: [],
-  },
-  {
     name: 'Classy Elegant Women Jeans',
     slug: toSlug('Classy Elegant Women Jeans'),
     category: 'Womens Fashion',
