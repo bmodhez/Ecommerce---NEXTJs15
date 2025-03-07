@@ -1068,9 +1068,9 @@ We also provide helpful resources such as order tracking, product guides, and FA
         },
         {
           name: 'Priority Processing',
-          daysToDeliver: 5,
-          shippingPrice: 30,
-          freeShippingMinPrice: 500,
+          daysToDeliver: 8,
+          shippingPrice: 0,
+          freeShippingMinPrice: 200,
         },
       ],
       defaultDeliveryDate: 'Standard Delivery',
