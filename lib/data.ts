@@ -2,6 +2,7 @@ import { Data, IProductInput, IUserInput } from '@/types'
 import { toSlug } from './utils'
 import bcrypt from 'bcryptjs'
 import { i18n } from '@/i18n-config'
+import { errorToJSON } from 'next/dist/server/render'
 
 const users: IUserInput[] = [
   {
