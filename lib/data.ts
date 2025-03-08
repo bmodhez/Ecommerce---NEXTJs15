@@ -25,6 +25,122 @@ const users: IUserInput[] = [
 ]
 
 const products: IProductInput[] = [
+
+  {
+    name: 'Classic Fashionable Women Tops & Tunics',
+    slug: toSlug('Classic Fashionable Women Tops & Tunics'),
+    category: 'Womens Fashion',
+    brand: 'Ganesh Fashion',
+    images: ['/images/p17-1.jpg', '/images/p17-2.jpg', '/images/p17-3.jpg', '/images/p17-4.jpg', '/images/p17-5.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 399,
+    listPrice: 579,
+    avgRating: 4.18,
+    numReviews: 47,
+    ratingDistribution: [
+      { rating: 5, count: 450 },
+      { rating: 4, count: 94 },
+      { rating: 3, count: 32 },
+      { rating: 2, count: 14 },
+      { rating: 1, count: 10 },
+    ],
+    countInStock: 76,
+    numSales: 0,
+    description:
+      'Catalog Name:Classic Fashionable Women Tops & Tunics Fabric: Polycotton Sleeve Length: Three-Quarter Sleeves Pattern: Printed Net Quantity (N): 1 Sizes: S (Bust Size: 36 in, Length Size: 28 in)  M (Bust Size: 38 in, Length Size: 28 in)  L (Bust Size: 40 in, Length Size: 28 in)  XL (Bust Size: 42 in, Length Size: 28 in)  XXL (Bust Size: 44 in, Length Size: 28 in)  XXXL (Bust Size: 46 in, Length Size: 28 in)  4XL (Bust Size: 48 in, Length Size: 28 in)  5XL (Bust Size: 50 in, Length Size: 28 in)  Dispatch: 1 Day ',
+    sizes: ['S', 'M', 'L','XL','XXL','XXXL','4XL','5XL'],
+    colors: ['Orange', 'Pink', 'Green','Red'],
+
+    reviews: [],
+  },
+  {
+    name: 'Adrika Petite Women Kurta Sets',
+    slug: toSlug('Adrika Petite Women Kurta Sets'),
+    category: 'Womens Fashion',
+    brand: 'Bhavins Collection',
+    images: ['/images/p18-1.jpg', '/images/p18-2.jpg', '/images/p18-3.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 449,
+    listPrice: 599,
+    avgRating: 4.28,
+    numReviews: 47,
+    ratingDistribution: [
+      { rating: 5, count: 7016 },
+      { rating: 4, count: 4260 },
+      { rating: 3, count: 2515 },
+      { rating: 2, count: 822 },
+      { rating: 1, count: 176 },
+    ],
+    countInStock: 66,
+    numSales: 0,
+    description:
+      'Catalog Name: Adrika Petite Women Kurta Sets Kurta Fabric: Rayon Bottomwear Fabric: Rayon Fabric: Rayon Sleeve Length: Three-Quarter Sleeves Set Type: Kurta With Bottomwear Bottom Type: Pants Pattern: Embroidered Net Quantity (N): Single Sizes:  L (Bust Size: 40 in, Shoulder Size: 14 in, Kurta Waist Size: 36 in, Kurta Length Size: 44 in, Bottom Waist Size: 36 in, Bottom Hip Size: 44 in, Bottom Length Size: 38 in)  XL (Bust Size: 42 in, Shoulder Size: 15 in, Kurta Waist Size: 38 in, Kurta Length Size: 44 in, Bottom Waist Size: 38 in, Bottom Hip Size: 46 in, Bottom Length Size: 38 in)  XXL (Bust Size: 44 in, Shoulder Size: 15 in, Kurta Waist Size: 40 in, Kurta Length Size: 44 in, Bottom Waist Size: 44 in, Bottom Hip Size: 45 in, Bottom Length Size: 38 in)  XXXL (Bust Size: 44 in, Shoulder Size: 17 in, Kurta Waist Size: 44 in, Kurta Length Size: 44 in, Bottom Waist Size: 44 in, Bottom Hip Size: 48 in, Bottom Length Size: 38 in)  Dispatch: 2 Days ',
+    sizes: ['L','XL','XXL','XXXL'],
+    colors: ['Red'],
+
+    reviews: [],
+  },
+
+  {
+    name: 'Abhisarika Superior Women Kurta Sets',
+    slug: toSlug('Abhisarika Superior Women Kurta Sets'),
+    category: 'Womens Fashion',
+    brand: 'Balaji Closet',
+    images: ['/images/p20-1.jpg', '/images/p20-2.jpg', '/images/p20-3.jpg' , '/images/p20-4.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 719,
+    listPrice: 859,
+    avgRating: 4.48,
+    numReviews: 180,
+    ratingDistribution: [
+      { rating: 5, count: 7016 },
+      { rating: 4, count: 1243 },
+      { rating: 3, count: 453 },
+      { rating: 2, count: 256 },
+      { rating: 1, count: 78 },
+    ],
+    countInStock: 66,
+    numSales: 0,
+    description:
+      'Catalog Name:Abhisarika Superior Women Kurta Sets Kurta Fabric: Viscose Rayon Bottomwear Fabric: Viscose Fabric: Chanderi Cotton Sleeve Length: Three-Quarter Sleeves Set Type: Kurta With Dupatta And Bottomwear Bottom Type: Salwar Pattern: Printed Net Quantity (N): Single Sizes:  S (Bust Size: 36 in, Shoulder Size: 14 in, Kurta Waist Size: 32 in, Kurta Hip Size: 38 in, Kurta Length Size: 44 in, Bottom Waist Size: 28 in, Bottom Hip Size: 30 in, Bottom Length Size: 39 in, Duppatta Length Size: 2.2 in)  M (Bust Size: 38 in, Shoulder Size: 14 in, Kurta Waist Size: 34 in, Kurta Hip Size: 40 in, Kurta Length Size: 44 in, Bottom Waist Size: 30 in, Bottom Hip Size: 32 in, Bottom Length Size: 39 in, Duppatta Length Size: 2.2 in)  L (Bust Size: 40 in, Shoulder Size: 15 in, Kurta Waist Size: 36 in, Kurta Hip Size: 42 in, Kurta Length Size: 44 in, Bottom Waist Size: 32 in, Bottom Hip Size: 34 in, Bottom Length Size: 39 in, Duppatta Length Size: 2.2 in)  XL (Bust Size: 42 in, Shoulder Size: 15 in, Kurta Waist Size: 38 in, Kurta Hip Size: 44 in, Kurta Length Size: 42 in, Bottom Waist Size: 34 in, Bottom Hip Size: 36 in, Bottom Length Size: 39 in, Duppatta Length Size: 2.2 in)  XXL (Bust Size: 44 m, Shoulder Size: 16 m, Kurta Waist Size: 40 m, Kurta Hip Size: 46 m, Kurta Length Size: 42 m, Bottom Waist Size: 36 m, Bottom Hip Size: 38 m, Bottom Length Size: 39 m, Duppatta Length Size: 2.2 m)  Dispatch: 2 Days ',
+    sizes: ['S','M','L','XL','XXL'],
+    colors: ['Red'],
+
+    reviews: [],
+  },
+
+  {
+    name: 'Aagam Pretty Women Kurta Sets',
+    slug: toSlug('Aagam Pretty Women Kurta Sets'),
+    category: 'Womens Fashion',
+    brand: 'DETACH',
+    images: ['/images/p19-1.jpg', '/images/p19-2.jpg', '/images/p19-3.jpg', '/images/p19-4.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 679,
+    listPrice: 899,
+    avgRating: 4.24,
+    numReviews: 1240,
+    ratingDistribution: [
+      { rating: 5, count: 1468 },
+      { rating: 4, count: 757 },
+      { rating: 3, count: 350 },
+      { rating: 2, count: 139 },
+      { rating: 1, count: 76 },
+    ],
+    countInStock: 66,
+    numSales: 0,
+    description:
+      'Catalog Name: Aagam Pretty Women Kurta Sets Kurta Fabric: Cotton Bottomwear Fabric: Cotton Fabric: Cotton Sleeve Length: Three-Quarter Sleeves Set Type: Kurta With Dupatta And Bottomwear Bottom Type: Pants Pattern: Printed Net Quantity (N): Single Sizes:  XXS, XS, S (Bust Size: 36 in, Shoulder Size: 13.5 in, Kurta Waist Size: 34 in, Kurta Length Size: 42 in, Bottom Waist Size: 30 in, Bottom Length Size: 39 in)  M (Bust Size: 38 in, Shoulder Size: 14 in, Kurta Waist Size: 36 in, Kurta Length Size: 42 in, Bottom Waist Size: 32 in, Bottom Length Size: 39 in)  L (Bust Size: 40 in, Shoulder Size: 14.5 in, Kurta Waist Size: 38 in, Kurta Length Size: 42 in, Bottom Waist Size: 34 in, Bottom Length Size: 39 in)  XL (Bust Size: 42 in, Shoulder Size: 15 in, Kurta Waist Size: 40 in, Kurta Length Size: 42 in, Bottom Waist Size: 36 in, Bottom Length Size: 39 in)  XXL (Bust Size: 44 in, Shoulder Size: 15.5 in, Kurta Waist Size: 42 in, Kurta Length Size: 42 in, Bottom Waist Size: 38 in, Bottom Length Size: 39 in)  XXXL Dispatch: 2 Days',
+    sizes: ['XXS','XS','S','M','L','XL','XXL','XXXL'],
+    colors: ['Blue'],
+
+    reviews: [],
+  },
+  
   {
     name: 'Abhisarika Sensational Kurtis',
     slug: toSlug('Abhisarika Sensational Kurtis'),
@@ -53,6 +169,36 @@ const products: IProductInput[] = [
 
     reviews: [],
   },
+
+  {
+    name: 'Classy Fashionista Men Shirts',
+    slug: toSlug('Classy Fashionista Men Shirts'),
+    category: 'Mens Fashion',
+    images: ['/images/p27-1.jpg', '/images/p27-2.jpg', '/images/p27-3.jpg', '/images/p27-4.jpg', '/images/p27-5.jpg', '/images/p27-6.jpg', '/images/p27-7.jpg', '/images/p27-8.jpg', '/images/p27-9.jpg'],
+    tags: ['new-arrival'],
+    isPublished: true,
+    price: 479,
+    listPrice: 799,
+    brand: 'UV Fashion',
+    avgRating: 3.94,
+    numReviews: 89,
+    ratingDistribution: [
+      { rating: 5, count: 25 },
+      { rating: 4, count: 6 },
+      { rating: 3, count: 7 },
+      { rating: 2, count: 4 },
+      { rating: 1, count: 2 },
+    ],
+    numSales: 0,
+    countInStock: 52,
+    description:
+      'Catalog Name:Classy Fashionista Men Shirts Fabric: Cotton Sleeve Length: Long Sleeves Pattern: Solid Net Quantity (N): 1 Sizes: M (Chest Size: 30 in, Length Size: 28 in)  L (Chest Size: 32 in, Length Size: 29 in)  XL (Chest Size: 34 in, Length Size: 30 in)  Dispatch: 2 Days',
+    sizes: ['M', 'L', 'XL'],
+    colors: ['Red', 'DarkGreen','DarkBlue','Black'],
+
+    reviews: [],
+  },
+
   {
     name: 'STI Mens Tshirts (Pack of 2)',
     slug: toSlug('STI Mens Tshirts'),
@@ -341,6 +487,123 @@ const products: IProductInput[] = [
 
     reviews: [],
   },
+  {
+    name: "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set",
+    slug: toSlug(
+      "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set"
+    ),
+    category: 'Womens Fashion',
+    brand: ' 395 BRAND CLOTH',
+    images: ['/images/p15-1.jpg', '/images/p15-2.jpg','/images/p15-3.jpg','/images/p15-4.jpg','/images/p15-5.jpg','/images/p15-6.jpg','/images/p15-7.jpg'],
+    tags: ['new-arrival', 'featured'],
+    isPublished: true,
+    price: 549,
+    listPrice: 729,
+    avgRating: 3.94,
+    numReviews: 687,
+    ratingDistribution: [
+      { rating: 5, count: 1267 },
+      { rating: 4, count: 467 },
+      { rating: 3, count: 263 },
+      { rating: 2, count: 122 },
+      { rating: 1, count: 312 },
+    ],
+    numSales: 0,
+    countInStock: 67,
+    description:
+      "Checkout this latest Dupatta Sets Product Name: Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set Fabric: Rayon Sleeve Length: Sleeveless Pattern: Printed Set Type: Kurta with Dupatta and Bottomwear Stitch Type: Stitched Sizes:  S, M, L, XL, XXL Country of Origin: India Easy Returns Available In Case Of Any Issue",
+    sizes: ['S','M','L','XL', 'XXL'],
+    colors: ['Green', 'Red', 'DarkGreen', 'Maroon', 'Pink', 'Blue','Black'],
+
+    reviews: [],
+  },
+  {
+    name: 'Zivapez Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women',
+    slug: toSlug('Zivapez Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women'),
+    category: 'Womens Fashion',
+    brand: 'Zivapez',
+    images: ['/images/p16-1.jpg', '/images/p16-2.jpg', '/images/p16-3.jpg', '/images/p16-4.jpg', '/images/p16-5.jpg', '/images/p16-6.jpg', '/images/p16-7.jpg', '/images/p16-8.jpg', '/images/p16-9.jpg', '/images/p16-10.jpg', '/images/p16-11.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 329,
+    listPrice: 499,
+    avgRating: 4.26,
+    numReviews: 38418,
+    ratingDistribution: [
+      { rating: 5, count: 59765 },
+      { rating: 4, count: 38331 },
+      { rating: 3, count: 18371 },
+      { rating: 2, count: 4638 },
+      { rating: 1, count: 8563 },
+    ],
+    countInStock: 76,
+    numSales: 0,
+    description:
+      'Product Name: Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women Fabric: Cotton Blend Sleeve Length: Short Sleeves Pattern: Printed Combo of: Single Sizes: XS (Bust Size: 19 in, Size Length: 44 in)  S (Bust Size: 36 in, Size Length: 44 in)  M (Bust Size: 38 in, Size Length: 44 in)  L (Bust Size: 40 in, Size Length: 44 in)  XL (Bust Size: 42 in, Size Length: 44 in)  XXL (Bust Size: 44 in, Size Length: 44 in)  XXXL (Bust Size: 25 in, Size Length: 44 in)  4XL (Bust Size: 26 in, Size Length: 44 in) SIZE CHART- Bust Size- S-36, M-38, L-40,XL-42, XXL-44,3XL-46, 4XL-48, West Size-S-32, M-34, L-36, XL-38, XXL-40, 3XL-42, 4XL-4 ',
+    sizes: ['XS','S','M','L','XL', 'XXL','XXXL','4XL'],
+    colors: ['Grey', 'White','Pink', 'Yellow', 'Blue', 'Red', 'Green', 'DarkYellow','LightPink'],
+
+    reviews: [],
+  },
+  {
+    name: "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set",
+    slug: toSlug(
+      "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set"
+    ),
+    category: 'Womens Fashion',
+    brand: ' 395 BRAND CLOTH',
+    images: ['/images/p15-1.jpg', '/images/p15-2.jpg','/images/p15-3.jpg','/images/p15-4.jpg','/images/p15-5.jpg','/images/p15-6.jpg','/images/p15-7.jpg'],
+    tags: ['new-arrival', 'featured'],
+    isPublished: true,
+    price: 549,
+    listPrice: 729,
+    avgRating: 3.94,
+    numReviews: 687,
+    ratingDistribution: [
+      { rating: 5, count: 1267 },
+      { rating: 4, count: 467 },
+      { rating: 3, count: 263 },
+      { rating: 2, count: 122 },
+      { rating: 1, count: 312 },
+    ],
+    numSales: 0,
+    countInStock: 67,
+    description:
+      "Checkout this latest Dupatta Sets Product Name: Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set Fabric: Rayon Sleeve Length: Sleeveless Pattern: Printed Set Type: Kurta with Dupatta and Bottomwear Stitch Type: Stitched Sizes:  S, M, L, XL, XXL Country of Origin: India Easy Returns Available In Case Of Any Issue",
+    sizes: ['S','M','L','XL', 'XXL'],
+    colors: ['Green', 'Red', 'DarkGreen', 'Maroon', 'Pink', 'Blue','Black'],
+
+    reviews: [],
+  },
+  {
+    name: 'Classy Designer Women Jeans',
+    slug: toSlug('Classy Designer Women Jeans'),
+    category: 'Womens Fashion',
+    brand: 'Bhavins Collection',
+    images: ['/images/p22-1.jpg', '/images/p22-2.jpg', '/images/p22-3.jpg', '/images/p22-4.jpg', '/images/p22-5.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 399,
+    listPrice: 549,
+    avgRating: 4.16,
+    numReviews: 57,
+    ratingDistribution: [
+      { rating: 5, count: 150 },
+      { rating: 4, count: 40 },
+      { rating: 3, count: 32 },
+      { rating: 2, count: 14 },
+      { rating: 1, count: 26 },
+    ],
+    countInStock: 76,
+    numSales: 0,
+    description:
+      'Catalog Name: Classy Designer Women Jeans Fabric: Denim Surface Styling: Product Dependent Net Quantity (N): 1 Sizes: 26, 28, 30, 32, 34, 36, 38, 40 Dispatch: 2 Days',
+    sizes: ['28', '30', '32'],
+    colors: ['Blue', 'Dark Blue'],
+
+    reviews: [],
+  },
+
   // Jeans
   {
     name: 'Men Skinny Jeans',

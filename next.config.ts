@@ -1,17 +1,16 @@
-import type { NextConfig } from 'next'
-import withNextIntl from 'next-intl/plugin'
+import type { NextConfig } from 'next';
+import withNextIntl from 'next-intl/plugin';
 
-const nextConfig: NextConfig = withNextIntl()({
-  /* config options here */
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'utfs.io',
-        port: '',
       },
     ],
   },
-})
+};
 
-export default nextConfig
+/** Apply next-intl */
+export default withNextIntl()(nextConfig);
