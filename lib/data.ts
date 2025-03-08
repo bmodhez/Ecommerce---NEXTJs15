@@ -992,7 +992,7 @@ const products: IProductInput[] = [
                                       description:
           'Catalog Name:Urbane Ravishing Men Shirts Fabric: Cotton Silk Sleeve Length: Long Sleeves Pattern: Printed Net Quantity (N): 1 Sizes: S (Chest Size: 36 in, Length Size: 27.5 in)  M (Chest Size: 38 in, Length Size: 29 in)  L (Chest Size: 40 in, Length Size: 29.5 in)  XL (Chest Size: 41 in, Length Size: 30 in)  XXL (Chest Size: 42 in, Length Size: 30.5 in)   Dispatch: 1 Day',
             sizes: ['S','M', 'L','XL', 'XXL'],
-              colors: ['Green'
+              colors: ['Cyan'
               ],
         
                 reviews: [],
