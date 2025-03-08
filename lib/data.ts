@@ -192,7 +192,7 @@ const products: IProductInput[] = [
     numSales: 0,
     countInStock: 52,
     description:
-      'Catalog Name:Classy Fashionista Men Shirts Fabric: Cotton Sleeve Length: Long Sleeves Pattern: Solid Net Quantity (N): 1 Sizes: M (Chest Size: 30 in, Length Size: 28 in)  L (Chest Size: 32 in, Length Size: 29 in)  XL (Chest Size: 34 in, Length Size: 30 in)  Dispatch: 2 Days',
+      'Catalog Name: Classy Fashionista Men Shirts Fabric: Cotton Sleeve Length: Long Sleeves Pattern: Solid Net Quantity (N): 1 Sizes: M (Chest Size: 30 in, Length Size: 28 in)  L (Chest Size: 32 in, Length Size: 29 in)  XL (Chest Size: 34 in, Length Size: 30 in)  Dispatch: 2 Days',
     sizes: ['M', 'L', 'XL'],
     colors: ['Red', 'DarkGreen','DarkBlue','Black'],
 
@@ -277,7 +277,7 @@ const products: IProductInput[] = [
     numSales: 0,
     countInStock: 67,
     description:
-      'Catalog Name:Aishani Petite Women Kurta Sets Kurta Fabric: Cotton Blend Bottomwear Fabric: Cotton Blend Fabric: No Dupatta Sleeve Length: Three-Quarter Sleeves Set Type: Kurta With Bottomwear Bottom Type: Pants Pattern: Printed Net Quantity (N): Single Sizes:  XXS, XS, S (Bust Size: 36 in, Shoulder Size: 14 in, Kurta Waist Size: 32 in, Kurta Length Size: 44 in)  M (Bust Size: 38 in, Shoulder Size: 14 in, Kurta Waist Size: 34 in, Kurta Length Size: 44 in)  L (Bust Size: 40 in, Shoulder Size: 15 in, Kurta Waist Size: 36 in, Kurta Length Size: 44 in)  XL (Bust Size: 42 in, Shoulder Size: 15 in, Kurta Waist Size: 38 in, Kurta Length Size: 44 in)  XXL (Bust Size: 44 in, Shoulder Size: 16 in, Kurta Waist Size: 40 in, Kurta Length Size: 44 in)  XXXL, 4XL, 5XL, 6XLDispatch: 1 Day',
+      'Catalog Name: Aishani Petite Women Kurta Sets Kurta Fabric: Cotton Blend Bottomwear Fabric: Cotton Blend Fabric: No Dupatta Sleeve Length: Three-Quarter Sleeves Set Type: Kurta With Bottomwear Bottom Type: Pants Pattern: Printed Net Quantity (N): Single Sizes:  XXS, XS, S (Bust Size: 36 in, Shoulder Size: 14 in, Kurta Waist Size: 32 in, Kurta Length Size: 44 in)  M (Bust Size: 38 in, Shoulder Size: 14 in, Kurta Waist Size: 34 in, Kurta Length Size: 44 in)  L (Bust Size: 40 in, Shoulder Size: 15 in, Kurta Waist Size: 36 in, Kurta Length Size: 44 in)  XL (Bust Size: 42 in, Shoulder Size: 15 in, Kurta Waist Size: 38 in, Kurta Length Size: 44 in)  XXL (Bust Size: 44 in, Shoulder Size: 16 in, Kurta Waist Size: 40 in, Kurta Length Size: 44 in)  XXXL, 4XL, 5XL, 6XLDispatch: 1 Day',
     sizes: ['XXS', 'XS','S','M', 'L', 'XL', 'XXL','XXXL','4XL','5XL','6XL'],
     colors: ['Pink', 'Blue', 'Yellow'],
 
@@ -426,94 +426,6 @@ const products: IProductInput[] = [
       'Product Name: LEOTUDE Mens Tshirts Fabric: Cotton Blend Sleeve Length: Long Sleeves Pattern: Printed Net Quantity (N): 1 Sizes: S(Chest Size: 38 in, Length Size: 27 in)  M (Chest Size: 40 in, Length Size: 28 in)  L (Chest Size: 42 in, Length Size: 29 in)  XL (Chest Size: 44 in, Length Size: 30 in)  XXL (Chest Size: 46 in, Length Size: 30.5 in)  XXXL',
     sizes: ['S','M','L','XL', 'XXL','XXXL'],
     colors: ['Blue', 'Red','Black'],
-
-    reviews: [],
-  },
-  {
-    name: "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set",
-    slug: toSlug(
-      "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set"
-    ),
-    category: 'Womens Fashion',
-    brand: ' 395 BRAND CLOTH',
-    images: ['/images/p15-1.jpg', '/images/p15-2.jpg','/images/p15-3.jpg','/images/p15-4.jpg','/images/p15-5.jpg','/images/p15-6.jpg','/images/p15-7.jpg'],
-    tags: ['new-arrival', 'featured'],
-    isPublished: true,
-    price: 549,
-    listPrice: 729,
-    avgRating: 3.94,
-    numReviews: 687,
-    ratingDistribution: [
-      { rating: 5, count: 1267 },
-      { rating: 4, count: 467 },
-      { rating: 3, count: 263 },
-      { rating: 2, count: 122 },
-      { rating: 1, count: 312 },
-    ],
-    numSales: 0,
-    countInStock: 67,
-    description:
-      "Checkout this latest Dupatta Sets Product Name: Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set Fabric: Rayon Sleeve Length: Sleeveless Pattern: Printed Set Type: Kurta with Dupatta and Bottomwear Stitch Type: Stitched Sizes:  S, M, L, XL, XXL Country of Origin: India Easy Returns Available In Case Of Any Issue",
-    sizes: ['S','M','L','XL', 'XXL'],
-    colors: ['Green', 'Red', 'DarkGreen', 'Maroon', 'Pink', 'Blue','Black'],
-
-    reviews: [],
-  },
-  {
-    name: 'Zivapez Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women',
-    slug: toSlug('Zivapez Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women'),
-    category: 'Womens Fashion',
-    brand: 'Zivapez',
-    images: ['/images/p16-1.jpg', '/images/p16-2.jpg', '/images/p16-3.jpg', '/images/p16-4.jpg', '/images/p16-5.jpg', '/images/p16-6.jpg', '/images/p16-7.jpg', '/images/p16-8.jpg', '/images/p16-9.jpg', '/images/p16-10.jpg', '/images/p16-11.jpg'],
-    tags: ['best-seller', 'todays-deal'],
-    isPublished: true,
-    price: 329,
-    listPrice: 499,
-    avgRating: 4.26,
-    numReviews: 38418,
-    ratingDistribution: [
-      { rating: 5, count: 59765 },
-      { rating: 4, count: 38331 },
-      { rating: 3, count: 18371 },
-      { rating: 2, count: 4638 },
-      { rating: 1, count: 8563 },
-    ],
-    countInStock: 76,
-    numSales: 0,
-    description:
-      'Product Name: Fashionable Cotton Slub Dijital Print Anarkali Kurti For Women Fabric: Cotton Blend Sleeve Length: Short Sleeves Pattern: Printed Combo of: Single Sizes: XS (Bust Size: 19 in, Size Length: 44 in)  S (Bust Size: 36 in, Size Length: 44 in)  M (Bust Size: 38 in, Size Length: 44 in)  L (Bust Size: 40 in, Size Length: 44 in)  XL (Bust Size: 42 in, Size Length: 44 in)  XXL (Bust Size: 44 in, Size Length: 44 in)  XXXL (Bust Size: 25 in, Size Length: 44 in)  4XL (Bust Size: 26 in, Size Length: 44 in) SIZE CHART- Bust Size- S-36, M-38, L-40,XL-42, XXL-44,3XL-46, 4XL-48, West Size-S-32, M-34, L-36, XL-38, XXL-40, 3XL-42, 4XL-4 ',
-    sizes: ['XS','S','M','L','XL', 'XXL','XXXL','4XL'],
-    colors: ['Grey', 'White','Pink', 'Yellow', 'Blue', 'Red', 'Green', 'DarkYellow','LightPink'],
-
-    reviews: [],
-  },
-  {
-    name: "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set",
-    slug: toSlug(
-      "Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set"
-    ),
-    category: 'Womens Fashion',
-    brand: ' 395 BRAND CLOTH',
-    images: ['/images/p15-1.jpg', '/images/p15-2.jpg','/images/p15-3.jpg','/images/p15-4.jpg','/images/p15-5.jpg','/images/p15-6.jpg','/images/p15-7.jpg'],
-    tags: ['new-arrival', 'featured'],
-    isPublished: true,
-    price: 549,
-    listPrice: 729,
-    avgRating: 3.94,
-    numReviews: 687,
-    ratingDistribution: [
-      { rating: 5, count: 1267 },
-      { rating: 4, count: 467 },
-      { rating: 3, count: 263 },
-      { rating: 2, count: 122 },
-      { rating: 1, count: 312 },
-    ],
-    numSales: 0,
-    countInStock: 67,
-    description:
-      "Checkout this latest Dupatta Sets Product Name: Women's Beautiful Traditional Rayon Printed Kurta Sharara And Net Dupatta Set Fabric: Rayon Sleeve Length: Sleeveless Pattern: Printed Set Type: Kurta with Dupatta and Bottomwear Stitch Type: Stitched Sizes:  S, M, L, XL, XXL Country of Origin: India Easy Returns Available In Case Of Any Issue",
-    sizes: ['S','M','L','XL', 'XXL'],
-    colors: ['Green', 'Red', 'DarkGreen', 'Maroon', 'Pink', 'Blue','Black'],
 
     reviews: [],
   },
