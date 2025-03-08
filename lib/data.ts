@@ -839,7 +839,6 @@ const products: IProductInput[] = [
         reviews: [],
   },
 
-
 {
   name: "Aadab Graceful Men Casual Shoes",
     slug: toSlug(
@@ -847,7 +846,7 @@ const products: IProductInput[] = [
     ),
       category: 'Mens Shoes',
         brand: 'Generic',
-          images: ['/images/p46-1.jpg', '/images/p46-2.jpg', '/images/p46-2.jpg'],
+          images: ['/images/p46-1.jpg', '/images/p46-2.jpg', '/images/p46-3.jpg'],
             tags: ['best-seller', 'todays-deal'],
               isPublished: true,
                 price: 499,
@@ -870,6 +869,136 @@ const products: IProductInput[] = [
 
         reviews: [],
   },
+
+  {
+    name: "Classy Modern Formal Men Shirts",
+      slug: toSlug(
+        "Classy Modern Formal Men Shirts"
+      ),
+        category: 'Mens Fashion',
+          brand: 'Sky Global',
+            images: ['/images/p28-1.jpg', '/images/p28-2.jpg', '/images/p28-3.jpg', '/images/p28-4.jpg', '/images/p28-5.jpg', '/images/p28-6.jpg', '/images/p28-7.jpg'],
+              tags: ['best-seller', 'todays-deal'],
+                isPublished: true,
+                  price: 489,
+                    listPrice: 759,
+                      avgRating: 4.17,
+                        numReviews: 316,
+                          ratingDistribution: [
+                            { rating: 1, count: 303 },
+                            { rating: 2, count: 191 },
+                            { rating: 3, count: 302 },
+                            { rating: 4, count: 438 },
+                            { rating: 5, count: 1277 },
+                          ],
+                            countInStock: 76,
+                              numSales: 0,
+                                description:
+    'Catalog Name: Classy Modern Men Shirts Fabric: Cotton Sleeve Length: Product Dependent Pattern: Solid Net Quantity (N): 1 Sizes: M (Chest Size: 40 in, Length Size: 28.5 in)  L (Chest Size: 42 in, Length Size: 29 in)  XL (Chest Size: 44 in, Length Size: 30 in)  XXL (Chest Size: 47 in, Length Size: 30.5 in)  Dispatch: 1 Day',
+      sizes: ['M', 'L', 'XL', 'XXL'],
+        colors: ['Black','Grey','Green','Blue','DarkBlue'
+        ],
+  
+          reviews: [],
+    },
+
+    {
+      name: "Pretty Fashionable Men Shirts",
+        slug: toSlug(
+          "Pretty Fashionable Men Shirts"
+        ),
+          category: 'Mens Fashion',
+            brand: 'FEBDEX FASHION',
+              images: ['/images/p28-1.jpg', '/images/p28-2.jpg', '/images/p28-3.jpg', '/images/p28-4.jpg', '/images/p28-5.jpg', '/images/p28-6.jpg', '/images/p28-7.jpg'],
+                tags: ['best-seller', 'todays-deal'],
+                  isPublished: true,
+                    price: 489,
+                      listPrice: 759,
+                        avgRating: 4.17,
+                          numReviews: 1267,
+                            ratingDistribution: [
+                              { rating: 1, count: 474 },
+                              { rating: 2, count: 947 },
+                              { rating: 3, count: 540 },
+                              { rating: 4, count: 974 },
+                              { rating: 5, count: 2058 },
+                            ],
+                              countInStock: 76,
+                                numSales: 0,
+                                  description:
+      'Catalog Name: Pretty Fashionable Men Shirts Fabric: Cotton Sleeve Length: Long Sleeves Pattern: Solid Net Quantity (N): 1 Sizes: M (Chest Size: 38 in, Length Size: 28 in)  L (Chest Size: 40 in, Length Size: 28.5 in)  XL (Chest Size: 42 in, Length Size: 29 in)  XXL (Chest Size: 44 in, Length Size: 29.5 in)  Dispatch: 1 Day ',
+        sizes: ['M', 'L', 'XL', 'XXL'],
+          colors: ['LightGreen','DarkGreen','Pink','White','Orange','DarkBlue','LightBlue','SkyBlue','Red'
+          ],
+    
+            reviews: [],
+      },  
+
+      {
+        name: "Erica's Fancy Sensational Men Shirts",
+          slug: toSlug(
+            "Erica's Fancy Sensational Men Shirts"
+          ),
+            category: 'Mens Fashion',
+              brand: 'HKG Enterprises',
+                images: ['/images/p29-1.jpg', '/images/p29-2.jpg', '/images/p29-3.jpg', '/images/p29-4.jpg', '/images/p29-5.jpg', '/images/p29-6.jpg', '/images/p29-7.jpg'],
+                  tags: ['best-seller', 'todays-deal'],
+                    isPublished: true,
+                      price: 499,
+                        listPrice: 699,
+                          avgRating: 3.97,
+                            numReviews: 1267,
+                              ratingDistribution: [
+                                { rating: 1, count: 228 },
+                                { rating: 2, count: 152 },
+                                { rating: 3, count: 297 },
+                                { rating: 4, count: 449 },
+                                { rating: 5, count: 950 },
+                              ],
+                                countInStock: 76,
+                                  numSales: 0,
+                                    description:
+        'Catalog Name:Fancy Sensational Men Shirts Fabric: Cotton Sleeve Length: Long Sleeves Pattern: Printed Net Quantity (N): 1 Sizes: M (Chest Size: 40 in, Length Size: 28.5 in)  L (Chest Size: 42 in, Length Size: 29 in)  XL (Chest Size: 44 in, Length Size: 30 in)  XXL (Chest Size: 47 in, Length Size: 30.5 in)  XXXL (Chest Size: 49 in, Length Size: 32 in)   Dispatch: 1 Day',
+          sizes: ['M', 'L','XL', 'XXL','XXXL'],
+            colors: ['White','Grey','Pink','Blue','DarkBlue'
+            ],
+      
+              reviews: [],
+        }, 
+
+        {
+          name: "Luxury Crown Urbane Ravishing Men Shirts",
+            slug: toSlug(
+              "Luxury Crown Urbane Ravishing Men Shirts"
+            ),
+              category: 'Mens Fashion',
+                brand: 'Luxury Crown',
+                  images: ['/images/p30-1.jpg', '/images/p30-2.jpg', '/images/p30-3.jpg'],
+                    tags: ['best-seller', 'todays-deal'],
+                      isPublished: true,
+                        price: 459,
+                          listPrice: 599,
+                            avgRating: 3.96,
+                              numReviews: 124,
+                                ratingDistribution: [
+                                  { rating: 1, count: 16 },
+                                  { rating: 2, count: 8 },
+                                  { rating: 3, count: 15 },
+                                  { rating: 4, count: 25 },
+                                  { rating: 5, count: 47 },
+                                ],
+                                  countInStock: 76,
+                                    numSales: 0,
+                                      description:
+          'Catalog Name:Urbane Ravishing Men Shirts Fabric: Cotton Silk Sleeve Length: Long Sleeves Pattern: Printed Net Quantity (N): 1 Sizes: S (Chest Size: 36 in, Length Size: 27.5 in)  M (Chest Size: 38 in, Length Size: 29 in)  L (Chest Size: 40 in, Length Size: 29.5 in)  XL (Chest Size: 41 in, Length Size: 30 in)  XXL (Chest Size: 42 in, Length Size: 30.5 in)   Dispatch: 1 Day',
+            sizes: ['S','M', 'L','XL', 'XXL'],
+              colors: ['Green'
+              ],
+        
+                reviews: [],
+          }, 
+
+
 ]
 const reviews = [
   {
