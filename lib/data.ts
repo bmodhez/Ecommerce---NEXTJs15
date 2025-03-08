@@ -909,7 +909,7 @@ const products: IProductInput[] = [
         ),
           category: 'Mens Fashion',
             brand: 'FEBDEX FASHION',
-              images: ['/images/p28-1.jpg', '/images/p28-2.jpg', '/images/p28-3.jpg', '/images/p28-4.jpg', '/images/p28-5.jpg', '/images/p28-6.jpg', '/images/p28-7.jpg'],
+              images: ['/images/p31-1.jpg', '/images/p31-2.jpg', '/images/p31-3.jpg', '/images/p31-4.jpg', '/images/p31-5.jpg', '/images/p31-6.jpg', '/images/p31-7.jpg', '/images/p31-8.jpg', '/images/p31-9.jpg', '/images/p31-10.jpg'],
                 tags: ['best-seller', 'todays-deal'],
                   isPublished: true,
                     price: 489,
