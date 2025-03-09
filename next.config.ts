@@ -3,12 +3,8 @@ import withNextIntl from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'utfs.io',
-      },
-    ],
+    domains: ["utfs.io"], // utfs.io domain allow karo
+    unoptimized: true,
   },
 };
 
